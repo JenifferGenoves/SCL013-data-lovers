@@ -45,19 +45,17 @@ header {
 }
 
 #imgLogo {
-  position: absolute;
-  left: 30px;
-  top: -45px;
-  width: 250px;
-  height: 230px;
+  float: left;
+  width: 200px;
+  height: 100px;
   padding: 0px 0px;
 }
 
 #pikaImg {
   position: absolute;
   top: 20%;
-  right: 10%;
-  width: 500px;
+  right: 8%;
+  width: 72vh;
 }
 
 #pikaImg img {
@@ -80,7 +78,7 @@ header {
 h2 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
-  font-size: 3.9rem;
+  font-size: 3.6rem;
   color: whitesmoke;
 }
 
@@ -149,8 +147,10 @@ p {
 
 .cardP:hover {
   background-color: #15464B;
-  opacity: 50%;
+  opacity: 70%;
   transition: 0.3s;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
 }
 
 .pokeNumber {
@@ -208,6 +208,13 @@ p {
   opacity: 25%;
 }
 
+#containerPoke {
+/*   display: none; */
+  padding: 45vh 10vh;
+  background: rgb(25, 158, 163);
+  background: linear-gradient(155deg, rgba(25, 158, 163, 1) 0%, rgba(21, 212, 129, 1) 100%);
+}
+
 #containerRanking {
   padding: 20vh 10vh;
   background: rgb(25, 158, 163);
@@ -216,7 +223,7 @@ p {
 
 #filterOrderR {
   display: flex;
-  margin: 10px;
+  margin: 10px 270px;
 }
 
 #tableTop {
@@ -231,7 +238,7 @@ p {
 
 #tableOne {
   width: 80vh;
-  height: 70vh;
+  height: 65vh;
   background-color: whitesmoke;
   border-radius: 30px;
 }
