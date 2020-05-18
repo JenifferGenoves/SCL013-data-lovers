@@ -1,18 +1,24 @@
 // En esta sección van las funciones de manipulación de la Data
 //Primero scribimos la función para mostrar a todos los Pokemones
 
+export const filterData = (pokeDatos, type) => {
+  const newDataArray = []; //declara variable con array
+  for (let i = 0; i < pokeDatos.length; i += 1) { //loop que va recorriendo la data
+    newDataArray.push(pokeDatos[i]);
+    
+  }
+  return newDataArray.filter(pokemon => pokemon.type.includes(type))
+};
 
 
 
-export const filterData = (pokeData, condition) => {
+
+
     //console.log(data);
     //console.log(condition);
     //Le vamos a pedir que recorra la Data, la data es un ARRAY que contiene Objetos, para eso utilizamos: For hasta el largo de la data y uno por
     
     
-      }
-
-
 
 
 

@@ -29,8 +29,10 @@ for (let i = 0; i <= 9; i++) {
     arrData2[i].name + '</h4> <img src=\'' +
     arrData2[i].img + '\' class=\'pokeImg2\'> </div>';
 }
-import pokeData from './data/pokemon/pokemon.js';
-import {} from './data.js';
+
+//Al hacer click en la tarjeta te lleva a ver más info
+
+//Ordenar Pokemon
 
 
 
