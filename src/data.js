@@ -1,6 +1,6 @@
 // En esta sección van las funciones de manipulación de la Data
 //Primero scribimos la función para mostrar a todos los Pokemones
-import pokeData from './data/pokemon/pokemon.js';
+
 
 
 

@@ -33,23 +33,6 @@ for (let i = 0; i <=9; i++) {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-import pokeData from './data/pokemon/pokemon.js';
-
-import { filterData } from './data.js';
-
 /*
 //seleccionar ordenar por tipo
 const selectType = document.getElementById("type");
