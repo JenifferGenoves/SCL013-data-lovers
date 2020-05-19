@@ -271,6 +271,80 @@ p {
   font-size: 1rem;
   opacity: 70%;
 }
-/* Página responsive*/
-
-
+*Responsive*/
+@media all and (max-width: 790px) {
+    .nav-flex {
+        flex-direction: column;
+    }
+    .logo {
+        margin: 0;
+    }
+    .navigation  {
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+@media all and (max-width: 500px) {
+    .logo {
+        margin: .25em 0;
+        align-self: left; 
+    }
+    .navigation {
+        flex-direction: column;
+    } 
+    .navigation a{ 
+        text-align: center; 
+        padding: 10px;
+        border-top: 1px solid rgba(255,255,255,0.3); 
+        border-bottom: 1px solid rgba(0,0,0,0.1); 
+    }
+    input{
+        margin: 2% 0 2% 25%;
+        padding: 4% 0;
+    }
+    .navigation li:last-of-type a {
+        border-bottom: none;
+    } 
+    .filterOption .filterOptionBody {
+        flex-flow: column wrap;
+    } 
+    #img-box{
+        display: none;
+    }
+    #info{
+        flex-direction:column;
+        max-width: 90%;
+        margin-top: 5%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .cardContent{
+        width: 90vw;
+        height: 95vh;
+    }
+    .img-modal{
+        max-width: 100px;
+    }
+    .close{
+        display: inline;
+        margin: 0;
+    }
+    .medio{
+        padding: 0 5%;
+        width: 60%;
+        margin-left: 5%;
+    }
+    .derecha{
+        display: none;
+    }
+}

@@ -1,0 +1,300 @@
+/* Reinicio de Estilos */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+/* Margen del Logo */
+.logo {
+    margin: 0 0 0 5%;
+}
+/* Estilos del Logo */
+.logo img{
+    height: 140px;
+    display: block;
+    padding: 0em;
+}
+/* Estilos de la Barra de Navegacion Superior */
+.nav-flex  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #D8AED3;
+}
+/* Estilo Mayuscula de Los Textos de la Barra de Navegacion*/
+.navigation {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    padding-right: 3em;
+    padding-left: 1em;
+}
+/* Elimina la decoracion de los textos */
+.logo, .navigation a {
+    text-decoration: none;
+    letter-spacing: .45rem;
+}
+/* Color y Estilo de la Barra de Navegacion */
+.navigation a {
+    display: block;
+    padding: 1em;
+    color:  black;
+}
+/* Hover de la Barra de Navegacion */
+.navigation a:hover {
+    background: #552E5A;
+}
+/* Cuadro de texto Buscar */
+input{
+    height: 20px;
+    border-radius: 10px;
+    margin: 10% 0 0 0;
+    border-color: #552E5A;
+    text-indent: 4%;
+}
+/* Textos Tarjetas */
+h1, h2, h3 {
+    color: #552E5A;
+}
+h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+h3{
+    font-size: 18px;
+}
+p{
+    font-size: 20px;
+    line-height: 24px;
+}
+/* Estilo de la Imagen de pagina inicial */
+#img-header{
+    max-height: 470px;
+    margin-top: 8%;
+}
+/* Estilo pagina inicial */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* Boton Ir a Pokedex */
+.button{
+    margin-top: 2%;
+    border-width: 0px;
+    width: 200px;
+    padding: 2%;
+    background: linear-gradient( 180.3deg,  rgba(214,224,255,1) 37.2%, rgba(254,168,168,1) 137.3% );
+    border-radius: 100px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    text-transform: uppercase;
+}
+/* Cajas de listas de filtros */
+.filterOptionBody, nav-flex{
+    width: 80%;  
+}
+/* Fondo Cajas de listas de Filtros */
+.filterOption, .filterOption .filterOptionBody{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background: black;
+}
+/* Estilo de cada caja de filtro */
+select{
+    width: 250px;
+    padding: 10px;
+    border-radius: 8px ;
+}
+/* Contenedor Tarjeta */
+.viewCard {
+    width: 90%;
+    margin: auto; 
+}
+/* Tarjeta */
+.viewCardCreate{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* Tarjeta creada */
+.itemsPoke{
+    width: 200px;
+    height: 420px;
+    text-align: center;
+    padding:25px 0;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #A8DD9C;
+    box-shadow: 1.94667px 2.92px 3.89333px rgba(0, 0, 0, 0.25);
+    border-radius: 9.73333px ;
+    margin: 40px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+/* Imagen de cada tarjeta Pokemon */
+.imgPokemon{
+    max-width: 130px;
+}
+/* Hover de Tarjeta */
+.itemsPoke:hover{
+    border: #8fda9f solid 2.5px;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/* Inicio Modal*/
+/* Fondo del la Tarjeta de Caracteristicas Adicionales */
+#principalModal {
+    position: fixed;
+    display: none;
+    width:100vw;
+    height: 100vh;
+    top: 50%;
+    left: 50%;
+    padding-top: 3.5%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+    border-radius: 15px;
+    -webkit-box-shadow: 15px 15px 10px -8px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 15px 15px 10px -8px rgba(0, 0, 0, 0.5);
+    box-shadow: 15px 15px 10px -8px rgba(0, 0, 0, 0.5);
+}
+/* Tarjeta de descripciones */
+.cardContent{
+    width: 75vw;
+    height: 85vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+/* Item X cerrar */
+.close {
+    text-align: right;
+    color: #2F80ED;
+    font-size: 30px;
+    margin: 15px;
+    padding-left: 25px;
+}
+/* estilos de cada sector de la tarjeta modal */
+.tarjetaPrincipal {
+    display: flex;
+    width:70%;
+    height: 80%;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #A8DD9C;
+    border-radius: 15px;
+}
+.medio {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-left: 5%;
+    width: 25%;
+}
+.derecha{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-left: 2em;
+}
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 67vh;
+    justify-content: center;
+    text-align: center;
+    padding-left: 2em;
+}
+.text-PokeCard{
+    margin-bottom: 2%;
+}
+.img-modal{
+    width: 160px;
+}
+/*Responsive*/
+@media all and (max-width: 790px) {
+    .nav-flex {
+        flex-direction: column;
+    }
+    .logo {
+        margin: 0;
+    }
+    .navigation  {
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+@media all and (max-width: 500px) {
+    .logo {
+        margin: .25em 0;
+        align-self: left; 
+    }
+    .navigation {
+        flex-direction: column;
+    } 
+    .navigation a{ 
+        text-align: center; 
+        padding: 10px;
+        border-top: 1px solid rgba(255,255,255,0.3); 
+        border-bottom: 1px solid rgba(0,0,0,0.1); 
+    }
+    input{
+        margin: 2% 0 2% 25%;
+        padding: 4% 0;
+    }
+    .navigation li:last-of-type a {
+        border-bottom: none;
+    } 
+    .filterOption .filterOptionBody {
+        flex-flow: column wrap;
+    } 
+    #img-box{
+        display: none;
+    }
+    #info{
+        flex-direction:column;
+        max-width: 90%;
+        margin-top: 5%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .cardContent{
+        width: 90vw;
+        height: 95vh;
+    }
+    .img-modal{
+        max-width: 100px;
+    }
+    .close{
+        display: inline;
+        margin: 0;
+    }
+    .medio{
+        padding: 0 5%;
+        width: 60%;
+        margin-left: 5%;
+    }
+    .derecha{
+        display: none;
+    }
+}
