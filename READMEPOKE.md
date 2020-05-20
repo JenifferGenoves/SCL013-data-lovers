@@ -9,10 +9,32 @@
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__html"><h2 id="introducción">INTRODUCCIÓN</h2>
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li>
+<ul>
+<li><a href="#introducción">INTRODUCCIÓN</a></li>
+<li><a href="#definición-del-producto">DEFINICIÓN DEL PRODUCTO</a></li>
+<li><a href="#tipo-de-usuario">TIPO DE USUARIO</a></li>
+<li><a href="#objetivo-principal-del-producto">OBJETIVO PRINCIPAL DEL PRODUCTO</a></li>
+<li><a href="#historias-de-usuario">HISTORIAS DE USUARIO</a></li>
+<li><a href="#diseño-de-la-interfaz-de-usuario">DISEÑO DE LA INTERFAZ DE USUARIO</a></li>
+<li><a href="#test-de-usuarios">TEST DE USUARIOS</a></li>
+<li><a href="#apéndice">APÉNDICE</a></li>
+</ul>
+</li>
+</ul>
+
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h2 id="introducción">INTRODUCCIÓN</h2>
 <p>En este proyecto construimos una página web que permitirá visualizar información importante para los jugadores de Pokémon Go. Esta información consta de  151 Pokemones de la primera generación o  también conocida como <strong>“Pokemones de Kanto”,</strong> llamados de este modo porque provienen de la región <em>Kanto.</em></p>
 <p><img src="https://github.com/JenifferGenoves/SCL013-data-lovers/blob/master/src/imgPoke/web-page2.png" alt="Home"></p>
-<p><img src="%5Bhttps://github.com/JenifferGenoves/SCL013-data-lovers/blob/master/src/imgPoke/web-page2.png%5D" alt="Web2"></p>
+<p><img src="https://github.com/JenifferGenoves/SCL013-data-lovers/blob/master/src/imgPoke/web-page2.png" alt="Web2"></p>
 <p><img src="https://github.com/JenifferGenoves/SCL013-data-lovers/blob/master/src/imgPoke/web-page3.png" alt="Top"></p>
 <h2 id="definición-del-producto">DEFINICIÓN DEL PRODUCTO</h2>
 <p><strong>"Guía Pokémon Go"</strong> es una página web para jugadores avanzados, es decir, que juegan constantemente y quieren conocer datos relevantes para aumentar sus opciones de ganar Pokémon Go.<br>
@@ -94,7 +116,9 @@ Los usuarios del producto son los jugadores avanzados de Pokemon Go.</p>
 <li>Nos comprometimos a regirnos por la planificación realizada,  la cual se puede revisar haciendo click en Trello.</li>
 <li>Estudiar los contenidos necesarios para poder realizar eficientemente el proyecto.</li>
 </ul>
-</div>
+
+    </div>
+  </div>
 </body>
 
 </html>
