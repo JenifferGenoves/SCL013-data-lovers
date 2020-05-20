@@ -43,26 +43,26 @@ const data =
     expect(typeof filterByType).toBe('function');
   });
 
- const result = [
-    {
-      "num": "001",
-      "name": "Bulbasaur",
-      "img": "http://www.serebii.net/pokemongo/pokemon/001.png",
-      "type": [
-        "Grass", 
-        "Poison"
-      ],
-      "height": "0.71 m",
-      "weight": "6.9 kg",
-      "candy_count": 25,
-      "weaknesses": [
-        "Fire",
-        "Ice",
-        "Flying",
-        "Psychic"
-      ]
-    }
-  ]
+//  const result = [
+//     {
+//       "num": "001",
+//       "name": "Bulbasaur",
+//       "img": "http://www.serebii.net/pokemongo/pokemon/001.png",
+//       "type": [
+//         "Grass", 
+//         "Poison"
+//       ],
+//       "height": "0.71 m",
+//       "weight": "6.9 kg",
+//       "candy_count": 25,
+//       "weaknesses": [
+//         "Fire",
+//         "Ice",
+//         "Flying",
+//         "Psychic"
+//       ]
+//     }
+//   ]
 
   describe('data', () => {
     test('should be a type', () => {

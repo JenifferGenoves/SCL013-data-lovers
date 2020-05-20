@@ -3,7 +3,7 @@ import {} from './data.js';
 
 
 //Ver los Pokemones
-// Objet.values devuelve un arreglo con los objetos pokemon (cada pokemon)
+// Objet.values devuelve un arreglo con los objetos pokemon 
 const pokeDatos = pokeData.pokemon;
 let arrData = Object.values(pokeDatos)
 const pokemonesObj = document.getElementById('containerPokemon');
