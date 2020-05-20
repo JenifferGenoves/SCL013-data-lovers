@@ -6,7 +6,7 @@
 <h2 id="introducción">INTRODUCCIÓN</h2>
 <p>En este proyecto construimos una página web que permitirá visualizar información importante para los jugadores de Pokémon Go. Esta información consta de  151 Pokemones de la primera generación o  también conocida como <strong>“Pokemones de Kanto”,</strong> llamados de este modo porque provienen de la región <em>Kanto.</em></p>
 <p><img src="https://github.com/JenifferGenoves/SCL013-data-lovers/blob/master/src/imgPoke/web-page2.png" alt="Home"></p>
-<p><img src="%5Bhttps://github.com/JenifferGenoves/SCL013-data-lovers/blob/master/src/imgPoke/web-page2.png%5D" alt="Web2"></p>
+<p><img src="https://github.com/JenifferGenoves/SCL013-data-lovers/blob/master/src/imgPoke/web-page2.png" alt="Web2"></p>
 <p><img src="https://github.com/JenifferGenoves/SCL013-data-lovers/blob/master/src/imgPoke/web-page3.png" alt="Top"></p>
 <h2 id="definición-del-producto">DEFINICIÓN DEL PRODUCTO</h2>
 <p><strong>"Guía Pokémon Go"</strong> es una página web para jugadores avanzados, es decir, que juegan constantemente y quieren conocer datos relevantes para aumentar sus opciones de ganar Pokémon Go.<br>
