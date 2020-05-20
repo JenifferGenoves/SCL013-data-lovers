@@ -1,7 +1,18 @@
----
+# DATA LOVERS "POKEMON GO"
 
+## ÍNDICE
 
----
+* [1. Introducción](#1-Introducción)
+* [2. Definición del producto](#2-Definición-del-producto)
+* [3. Tipo de usuario](#3-Tipo-de-usuario)
+* [4. Objetivo principal del producto](#4-Objetivo-principal-del-proyecto)
+* [5. Historias de usuario](#6-Historias-de-usuarios)
+* [6. Diseño de la Interfaz de Usuario](#7-Diseño-de-la-interfaz-de-usuario)
+* [7. Apéndice](#8-Apéndice)
+* [8. Checklist](#9-checklist)
+
+***
+
 
 <h2 id="introducción">INTRODUCCIÓN</h2>
 <p>En este proyecto construimos una página web que permitirá visualizar información importante para los jugadores de Pokémon Go. Esta información consta de  151 Pokemones de la primera generación o  también conocida como <strong>“Pokemones de Kanto”,</strong> llamados de este modo porque provienen de la región <em>Kanto.</em></p>
